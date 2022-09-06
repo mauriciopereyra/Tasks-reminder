@@ -3,6 +3,7 @@ Desktop application to keep track of pending tasks
 Python and GTK
 
 <h2>Features</h2>
+
 * Creating, removing or editing tasks
 * Setting tasks as done
 * Setting date to do
