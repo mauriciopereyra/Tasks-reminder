@@ -1,6 +1,7 @@
 # Tasks-to-do
 Desktop application to keep track of pending tasks
-Python and GTK
+
+Python and GTK (PyGObject)
 
 <h2>Features</h2>
 
