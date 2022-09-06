@@ -1,0 +1,6 @@
+name,done,last_done,notes,recurring,recurring_type,recurring_value,date_created,date_started,date_to_do,star,tags
+Call Mom,0,2020-01-01,,0,,,2022-09-07,2022-09-01,2022-09-05,True,Family
+Plan work week,0,2020-01-01,,0,,,2022-09-07,2022-09-01,2022-09-06,0,Work
+Alfred birthday,0,2020-01-01,,0,,,2022-09-07,2022-09-01,2022-09-07,0,Personal
+Book hotel,0,2020-01-01,,0,,,2022-09-07,2022-09-01,2022-09-08,0,Work
+Buy groceries,0,2020-01-01,"Eggs, milk, rice",0,,,2022-09-07,2022-09-01,2022-09-09,0,Personal
