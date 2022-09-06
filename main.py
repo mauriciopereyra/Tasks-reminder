@@ -21,9 +21,6 @@ cwd = os.getcwd()
 
 # Load css
 screen = Gdk.Screen.get_default()
-provider = Gtk.CssProvider()
-provider.load_from_path(cwd+"/styles.css")
-Gtk.StyleContext.add_provider_for_screen(screen, provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 # Picle file location
 pickle_file = cwd+"/pickle_file.p"
 
@@ -72,9 +69,6 @@ class MyWindow(Gtk.Window):
         self.add_pages(filter_by=self.filter_active,tag=self.tag_active,date_filter=self.date_filter_active)
         self.add_tasks_lists(filter_by=self.filter_active,tag=self.tag_active,date_filter=self.date_filter_active)
 
-
-    def test_func(self):
-        print("Rolo")
 
     def clear_notebook(self):
         if hasattr(self, 'tasks_notebook'):
@@ -323,12 +317,3 @@ filters_exported = {
         'date_filter_active': win.date_filter_active,
 }
 pickle.dump(filters_exported, open(pickle_file, "wb"))
-
-
-# Remove V
-# New V
-# Date V
-# Sorting V
-# Recurring ...
-# All tasks menu V
-# Connect to database V
